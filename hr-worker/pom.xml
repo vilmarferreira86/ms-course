@@ -5,33 +5,19 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-<<<<<<< HEAD
 		<version>2.3.9.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.devsuperior</groupId>
-	<artifactId>hr-worker-1</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>hr-worker-1</name>
-	<description>Payroll Microservice</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
-=======
-		<version>2.3.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
 	<artifactId>hr-worker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hr-worker</name>
 	<description>Worker Microservice</description>
-
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
+		
+	
 
->>>>>>> d3a899853e2325894556b89e6ae1284601c52605
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -17,13 +17,10 @@ public class Worker implements Serializable {
 	private String name;
 	private Double dailyIncome;
 	
-<<<<<<< HEAD
-	public Worker() {}
-=======
+
 	public Worker() {
 		
 	}
->>>>>>> d3a899853e2325894556b89e6ae1284601c52605
 
 	public Worker(Long id, String name, Double dailyIncome) {
 		super();
