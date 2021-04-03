@@ -10,10 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devsuperior.hrpayroll.entities.Payment;
 import com.devsuperior.hrpayroll.services.PaymentService;
 
+<<<<<<< HEAD
 
 @RestController
 @RequestMapping(value = "/payments")
 public class PaymentResource {
+=======
+@RestController
+@RequestMapping(value = "/payments")
+public class PaymentResource {
+
+>>>>>>> d3a899853e2325894556b89e6ae1284601c52605
 	@Autowired
 	private PaymentService paymentService;
 	
@@ -22,4 +29,8 @@ public class PaymentResource {
 		Payment payment = paymentService.getPayment(workerId, days);
 		return ResponseEntity.ok(payment);
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> d3a899853e2325894556b89e6ae1284601c52605
 }
